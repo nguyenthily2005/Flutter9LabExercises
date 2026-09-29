@@ -1,0 +1,7 @@
+git clone https://github.com/londonappbrewery/Clima-Flutter.git
+cd Clima-Flutter
+Remove-Item -Recurse -Force .git
+cd ..
+flutter create lab9_clima
+
+Copy folders lib, fonts, images from Clima-Flutter to lab9_clima
